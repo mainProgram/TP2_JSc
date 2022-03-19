@@ -60,4 +60,30 @@ body {
   font-weight: bold;
   margin-left: 30%;
 }
+
+.btns {
+  height: 8%;
+  position: absolute;
+  bottom: 0;
+  width: 23%;
+  margin-right: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.btns a {
+  text-decoration: none;
+  margin-left: 5%;
+  font-size: 1rem;
+  text-shadow: 2px 1px #000;
+  color: #000;
+  font-style: italic;
+}
 /*# sourceMappingURL=style.css.map */

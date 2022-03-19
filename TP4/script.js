@@ -9,7 +9,6 @@ const currentYear = new Date().getFullYear();
 const NewYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);
 // ------------------------------------------------------------------------------------EVENTS
 
-
 // ------------------------------------------------------------------------------------FUNCTIONS
 const updateCountdown = ()=>{
     const currentTime = new Date;

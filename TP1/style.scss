@@ -103,5 +103,6 @@ button[value="orange"]{
     a{
         text-decoration: none;
         @include bouton_styling(purple);
+        margin-left: 1%;
     }
 }

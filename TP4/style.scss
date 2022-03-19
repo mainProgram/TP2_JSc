@@ -43,3 +43,22 @@ body{
         }
     }
 }
+
+.btns{
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+    width: 23%;
+    margin-right: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    a{
+        text-decoration: none;
+        margin-left: 5%;
+        font-size: 1rem;
+        text-shadow: 2px 1px #000;
+        color: #000;
+        font-style: italic;
+    }
+}

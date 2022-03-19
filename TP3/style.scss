@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h1{
+        font-size: 50px;
+    }
+
+    img{
+        width: 600px;
+        height: 550px;
+        &:hover{
+            cursor: zoom-in;
+        }
+    }
+    
+    #gallery{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    svg{
+        cursor: pointer ;
+    }
+}
+
+.img-zoom-container {
+    width: 600px;
+    height: 550px;
+    position: relative;
+}
+  
+.img-zoom-lens {
+    position: absolute;
+    cursor: zoom-in;
+    /*set the size of the lens:*/
+    width: 40px;
+    height: 40px;
+}
+  
+.img-zoom-result {
+    display: none;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    top: -20%;
+    left: -70%;
+    /*set the size of the result div:*/
+    width: 300px;
+    height: 300px;
+}
