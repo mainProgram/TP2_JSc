@@ -161,11 +161,18 @@ body {
   border-radius: 4px;
 }
 
-.wrapper .sidebar .sidebar-menu .item .menu-btn .drop-down {
+.wrapper .sidebar .sidebar-menu .item .menu-btn .fa-angle-left {
   float: right;
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 3px;
   margin-right: 3px;
+}
+
+.wrapper .sidebar .sidebar-menu .item .menu-btn .left {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .wrapper .sidebar .sidebar-menu .item .sub-menu {

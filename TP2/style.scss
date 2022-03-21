@@ -137,11 +137,15 @@ body{
                         border-radius: 4px;
                     }
                     
-                    .drop-down{
+                    .fa-angle-left{
                         float: right;
-                        font-size: 12px;
+                        font-size: 18px;
                         margin-top: 3px;
                         margin-right: 3px;
+                    }
+                    .left{
+                        transition: 0.4s ease-in-out;
+                        transform: rotate(-90deg);
                     }
                 }
 
